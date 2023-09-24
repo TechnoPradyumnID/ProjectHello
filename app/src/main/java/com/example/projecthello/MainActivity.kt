@@ -8,15 +8,16 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
-//    @Inject
-//    lateinit var userRepo: UserRepo
+    @Inject
+    lateinit var userRepo: UserRepo
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
 
-//        userRepo.saveUser("hello@gmail.com","12345")
+        userRepo.saveUser("hello@gmail.com","12345")
+
 
 
 
