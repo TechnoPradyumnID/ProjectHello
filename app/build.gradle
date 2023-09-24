@@ -49,3 +49,11 @@ dependencies {
     kapt "com.google.dagger:hilt-compiler:2.44"
 
 }
+
+hilt {
+    enableAggregatingTask = true
+}
+
+kapt {
+    correctErrorTypes true
+}
