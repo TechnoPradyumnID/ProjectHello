@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
+import javax.inject.Named
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     @Inject
+    @FirebaseQualifire // By own Annotation
     lateinit var userRepo: UserRepo
 
     override fun onCreate(savedInstanceState: Bundle?) {
