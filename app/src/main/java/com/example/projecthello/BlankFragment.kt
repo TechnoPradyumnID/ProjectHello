@@ -16,7 +16,6 @@ class BlankFragment : Fragment() {
     @Named("sql") // By Name
     lateinit var userRepo : UserRepo
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

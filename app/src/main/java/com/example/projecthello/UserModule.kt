@@ -20,6 +20,7 @@ class UserModule {
         return SQLRepo()
     }
 
+
     @Provides
     @FirebaseQualifire // By own Annotation
     fun provideFirebaseRepo(firebaseRepo: FirebaseRepo): UserRepo{
